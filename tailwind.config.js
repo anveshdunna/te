@@ -341,6 +341,9 @@ module.exports = {
         caption1: ["0.75rem", "1rem"],
         caption2: ["0.6875rem", "0.875rem"],
       },
+      boxShadow: {
+        cardborder: "inset 0 0 4px 4px blue",
+      },
     },
   },
   plugins: [],

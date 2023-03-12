@@ -6,6 +6,9 @@
   * {
       @apply box-border;
     }
+    a {
+      @apply underline;
+    }
 }
 
 body {
