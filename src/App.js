@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { HashRouter, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home";
 import TravelHome from "./pages/TravelHome";
@@ -23,7 +23,7 @@ function Layout(props) {
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -41,7 +41,7 @@ function App() {
           <Route path="notifications" element={<Notifications />} />
         </Routes>
       </Layout>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
