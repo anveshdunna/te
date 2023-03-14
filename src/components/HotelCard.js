@@ -7,17 +7,17 @@ function HotelCard() {
     <li>
       <Link
         href="www.google.com"
-        className="flex flex-row no-underline	rounded-xl overflow-hidden bg-white outline-1 outline-[#0000004e] outline outline-offset-[-1px] "
+        className="flex flex-row overflow-hidden	rounded-xl bg-white no-underline outline outline-1 outline-offset-[-1px] outline-[#00000033] "
       >
-        <div className="w-60 h-60">
+        <div className="h-60 w-60">
           <img
-            className="object-cover h-full"
+            className="h-full object-cover"
             alt=""
             src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=480&q=80"
           ></img>
         </div>
-        <div className="p-4 grow flex flex-col gap-4">
-          <div className="gap-1 flex flex-col">
+        <div className="flex grow flex-col gap-4 p-4">
+          <div className="flex flex-col gap-1">
             <div>★★★★</div>
             <div className="text-body1 font-semibold text-gray-900-value">
               The Ritz-Carlton, Los Angeles
@@ -45,13 +45,13 @@ function HotelCard() {
             </List>
           </div>
         </div>
-        <div className="w-40 my-4 px-4 border-l border-b-0 border-t-0 border-r-0 border-solid border-gray-100-value gap-2 flex flex-col items-end justify-end">
-          <div className="flex flex-col gap-1 items-end">
+        <div className="my-4 flex w-40 flex-col items-end justify-end gap-2 border-l border-b-0 border-t-0 border-r-0 border-solid border-gray-100-value px-4">
+          <div className="flex flex-col items-end gap-1">
             <div className="text-title3 font-semibold">$500</div>
             <div className="text-caption1">Avg per night</div>
             <div className="text-caption1">Total $1000</div>
           </div>
-          <div className="flex flex-col gap-1 items-center">
+          <div className="flex flex-col items-center gap-1">
             <button>Choose room</button>
             <div className="text-caption2">Earn reward $50</div>
           </div>
